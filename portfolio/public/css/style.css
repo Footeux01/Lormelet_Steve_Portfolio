@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+/* Page entière */
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url('../img/index.jpg');
+	color: orange !important;
+}
+
+.navbar li:hover{
+	background-color: white;
+}
+
+.nav{
+	float: right;
+}
+
+.img-rounded{
+	float: left;
+	margin-bottom: -6%;
+	margin-right:50%;
+}
+
+.container-fluid{
+	text-align: center;	
+}
+
+.jumbotrn h1{
+	text-align: center;
+	color: red;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 400%;
+	margin-bottom: 3%;
+}
+
+.jumbotrn h2{
+	text-align: center;
+	color: orange;
+	font-size: 300%;
+	font-family: 'Berkshire Swash', cursive;
+	margin-bottom: 3%;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin-top: 4%;
+}
+
+/* Accueil */
+
+#presentation, img{
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+#date_heure{
+	margin-left: 4%;
+	font-family: 'Courgette', cursive;
+	color: silver;
+	font-size: 20px;
+}
+
+.compteur{
+	color: #DB0073;
+	text-align: center;
+	margin-top: 5%;
+	font-family: 'Courgette', cursive;
+	animation: bounce 0.7s ease infinite;
+	font-size: 15px;
+
+}
+
+@keyframes bounce{
+     from {top: 106px;}
+     50%  {top: 86px;}
+     to   {top: 106px;}
+}
+
+.myButton{
+	text-align: center;
+	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Berkshire Swash;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+	margin: auto;
+	width: 10%;
+}
+
+.myButton:hover{
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+
+.myButton:active{
+	position:relative;
+	top:1px;
+}
+
+.fa-5x{
+	display: inline-block;
+}
+
+.left{
+	float: left;
+	margin: 5%;
+	color: #3C589E;
+}
+
+.right{
+	float: right;
+	margin: 5%;
+	color: #4C996B;
+}
+
+/* Voir Plus */
+
+.h2{
+	color: darkgray !important;
+	text-decoration: underline;
+}
+
+#lateral{
+	margin-top: 4%;
+}
+
+#main{
+	position: relative;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#main img{
+	border: 3px solid #000;
+	border-radius: 45%;
+}
+
+#contenu{
+	text-align: center;
+}
+
+/* Skill */
+
+#github{
+	display: block;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+/* Formation */
+
+.reddit, .h2{
+	color: red !important;
+}
+
+#pdf img:hover{
+	background-color: transparent;
+}
+
+/* Projet */
+
+
+/* Contact */
+
+/* Mentions Légales */
+
+#mentions{
+	text-align: center;
+}
+
+#mentions h2{
+	color: #9fe855;
+}
+
+#mentions h1{
+text-align: center;
+	color: red;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 400%;
+	margin-bottom: 3%;
+}
+
+#github{
+	display: block;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.formulaire{
+	display: block;
+	max-width: 100%;
+	margin: auto;
+}
+
+input[type=text]{
+	height: 50px;
+	border: none;
+	width: 100%;
+}
+
+textarea{
+	width: 100%;
+	height: 200px;
+	resize:vertical;
+	padding-left: 10px;
+}
+
+#map{
+        height: 100%;
+}
+
+.meteo h1{
+	font-family: 'Lobster', cursive;
+	margin-top: 3%;
+	text-align: center;
+	color: darkorange;
+}
+
+#temperature h2{
+	color: darkblue;
+}
+
+#description h2{
+	color: yellow;
+	font-size: 24px;
+}
+
+#icon{
+	display: block;
+	margin: auto;
+}
+
+#description h2::first-letter{
+	text-transform: uppercase;
+}
+
+/*Recherche Utilisateur Administration*/
+.jumbotrn h1{
+	color: orange;
+	font-family: 'Berkshire Swash', cursive;
+	text-shadow: 1px 2px 0 rgba(0,0,0,0.4),
+             -1px -2px 0 red;
+}
+
+.recherche_p{
+	margin-top: 20%;
+}
+
+/* Fond du gadget de la barre de recherche */
+.recherche_p {
+  border-style: solid;   /* Style de la bordure  */
+  border-width: 1px;   /* Epaisseur de la bordure  */
+  border-color: red;   /* Couleur de la bordure  */
+  padding: 10px 10px 10px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+}
+
+/* Champ de saisie */
+#searchthis #search {
+  background-color: #ffffff;   /* Couleur de fond */
+  border-style: solid;   /* Style de la bordure  */
+  border-width: 1px;   /* Epaisseur de la bordure  */
+  border-color: #dddddd;   /* Couleur de la bordure  */
+  padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+  width: 98.5%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
+  box-sizing: border-box;   /* Important */
+  font-family: Lato;   /* Police du texte */
+  font-size: 36px;   /* Taille de la police du texte */
+  font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+  letter-spacing: 1px;   /* Espacement des caractères */
+}
+
+/* Bouton valider */
+#searchthis #search-btn {
+  background-color: #E8B960;   /* Couleur de fond */
+  border-style: solid;   /* Style de la bordure  */
+  border-width: 1px;   /* Epaisseur de la bordure  */
+  border-color: #E8B960;   /* Couleur de la bordure  */
+  padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+  width: 98.5%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
+  box-sizing: border-box;   /* Important */
+  font-family: PT sans;   /* Police du texte */
+  font-size: 24px;   /* Taille de la police du texte */
+  font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+  letter-spacing: 2px;   /* Espacement des caractères */
+  margin: 10px 0 0 0;   /* Espace autour du bouton : haut droite bas gauche  */
+  text-transform: uppercase;   /* Transforme le texte en majuscules */
+  color: #ffffff;   /* Couleur du texte */
+}
+
+/* Bouton valider quand survolé par la souris */
+#searchthis #search-btn:hover {
+  background-color: #ffffff;   /* Couleur de fond */
+  color: #E8B960;   /* Couleur du texte */
+  cursor: pointer;   /* Apparence du curseur comme pour un lien */
+}
+
+/*Inbox*/
+
+table tr th, table tr td{
+	text-align: center;
+	border: 1px solid #E8B960;
+	padding: 1%;
+}
